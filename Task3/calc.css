@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+}
+body{
+  background: url('https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=826&t=st=1697648147~exp=1697648747~hmac=b1c367dbda5e4c6151406583bf33b3551775ec8a29d0080af99ae404cba6504f');
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+.main{
+  width: 400px;
+  height: 450px;
+  background-color: rgb(213, 161, 191);
+  position: absolute;
+  border: 5px solid black;
+  border-radius: 6px; 
+}
+.main input[type='text'] {
+  width: 88%;
+  position: relative;
+  height: 80px;
+  top: 5px;
+  text-align: right;
+  padding: 3px 6px;
+  outline: none;
+  font-size: 40px;
+  border: 5px solid black;
+  display: flex;
+  margin: auto;
+  border-radius: 6px;
+  color: black;
+}
+.btn input[type='button']{
+  width:90px;
+  padding: 2px;
+  margin: 2px 0px;
+  position: relative;
+  left: 13px;
+  top: 20px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.5s;
+  background-color: #000835;
+  border-radius: 6px;
+  color: white;
+}
+.btn input[type='button']:hover{
+  background-color: black;
+  color: white;
+}
